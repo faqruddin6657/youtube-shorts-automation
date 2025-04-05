@@ -1,0 +1,13 @@
+carter
+
+"rate": 0,
+  "pitch": -5,
+  "sampleRate": 48000,
+  "format": "MP3",
+  "channelType": "MONO",
+  "pronunciationDictionary": {},
+  "encodeAsBase64": false,
+  "variation": 1,
+  "audioDuration": 0,
+  "modelVersion": "GEN2",
+  "multiNativeLocale": "en-US"
