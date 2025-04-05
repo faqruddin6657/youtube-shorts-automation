@@ -2,6 +2,22 @@
 
 packages used---->>>> { ffmpeg, openAi, murfAi, cloudinary, deepgram.ai, googleapis}
 
+flow of execution -->>
+node delete-temp.js
+node video-operations\merging-clips-with-dark-overlay.js
+node video-operations\adding-bg-to-video.js
+node motivational-audio\chatgpt.js
+node motivational-audio\merge-audio.js
+node video-operations\adding-speaker-audio.js
+node audio-to-text/getting-srt-file.js
+node audio-to-text/srt-to-ass.js
+node audio-to-text/adding-styles-to-ass-file.js
+g++ burn.cpp -o burn
+burn.exe
+node upload-on-youtube/get-title-and-description.js
+node delete-temp.js
+pause
+
 --> this project takes 5s clips from the clips-5s and merge them randomly and make 1 min video (youtube short)
 --> then it randomly chooses 1m background music from bg_1min folder
 --> then we merge the video and background music to get 1 min video file with background music
